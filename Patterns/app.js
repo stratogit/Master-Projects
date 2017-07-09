@@ -16,8 +16,8 @@ app = express();
 var env = process.env.NODE_ENV || 'development';
 
 var mongoose = require('mongoose');
-//mongoose.connect('falcmongo://node:patmongo@ds149501.mlab.com:49501/patterns');
-mongoose.connect('mongodb://node:patmongo@cluster0-shard-00-00-ivki8.mongodb.net:27017,cluster0-shard-00-01-ivki8.mongodb.net:27017,cluster0-shard-00-02-ivki8.mongodb.net:27017/patterns?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin')
+
+mongoose.connect('conection'password)
 
 var db = mongoose.connection;
 
