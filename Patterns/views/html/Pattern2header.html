@@ -1,0 +1,182 @@
+============================================================== -->
+<!-- Page Content -->
+<!-- ============================================================== -->
+<div id="page-wrapper">
+    <div class="container-fluid">
+        <div class="row bg-title">
+
+            <!--<div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">-->
+            <h4 class="page-title">Pattern 2: Improved Packaging
+                <!--</div>-->
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="/">Home</a></li>
+                    <li class="breadcrumb-item active">Pattern 2</li>
+                </ol>
+
+            </h4>
+        </div>
+        <!-- /.col-lg-12 -->
+        <!-- /row -->
+        <div class="row ">
+
+            <div class=" col-lg-6 col-md-6 col- col-sm-6 col-xs-12 ">
+
+
+                <div class="white-box">
+                    <p class="text-muted">Pattern Description </p>
+
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Pattern Name: </th>
+                                    <th>IMPROVED PACKAGING</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Context/Intent </td>
+                                    <td>This pattern showcase how to reduce the unnecessary extra packing when ordering items
+                                        online
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Problem </td>
+                                    <td>Due to the easiness of online shopping more and more people are buying items online,
+                                        which increase the amount of packaging used for shipping those items</td>
+
+                                </tr>
+                                <tr>
+                                    <td>Forces
+
+                                    </td>
+                                    <td>
+                                        <ul style="list-style-type:circle">
+                                            <li> Any item bought online has their own packing plus the packaging for shipping.
+                                            </li>
+                                            <li> People tend to buy items separately.</li>
+                                            <li>Materials (plastic) are not biodegradable.</li>
+                                            <li>Packaging is disposed.</li>
+                                        </ul>
+                                    </td>
+
+                                </tr>
+                                <tr>
+                                    <td>Solution</td>
+                                    <td>
+                                        <ul style="list-style-type:circle">
+                                            <li> When purchasing the item show the types of packaging available for shipping,
+                                                preselect less packaging thus cheaper option. </li>
+                                            <li> Attach instructions to conserve the packaging and reuse them as gift boxes.</li>
+                                            <li> Encourage recycling. </li>
+                                            <li> Encourage devolution of packages for further use in other shipping.</li>
+                                    </td>
+
+                                </tr>
+                                <tr>
+                                    <td>Consequences</td>
+                                    <td>
+                                        <ul style="list-style-type:circle">
+                                            <li> Less useless package is used when sending items.</li>
+                                            <li> More packaging is reused within online shopping.</li>
+                                            <li> Costumers reuse packaging for other uses.</li>
+                                            <li> Packages are reused.</li>
+                                    </td>
+
+                                </tr>
+                                <tr>
+                                    <td>Related Patterns</td>
+                                    <td>SOCIAL SHARING</td>
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class=" col-lg-6 col-md-6 col- col-sm-6 col-xs-12 ">
+                <div class="white-box">
+                    <p class="text-muted">Pattern Example </p>
+                    <img class="resize" src='./plugins/images/pat/2pack.png' />
+                </div>
+            </div>
+        </div>
+
+
+
+                <div class="row ">
+                    <div class="white-box">
+                        <h3 class="box-title">Comment Now</h3>
+
+                        <div class="comment-center p-t-10">
+                            <div class="comment-body">
+
+                                <div class="mail-contnet">
+
+                                    <form id="commentForm" action="pattern2" method="post">
+                                        <table>
+                                            <tr>
+                                                <td>
+                                                    Name:
+                                                </td>
+                                                <td>
+                                                    <input id="commenter" type="text" placeholder="John Doe" name="commenter" />
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Email:
+                                                </td>
+                                                <td>
+                                                    <input id="commenter" type="text" placeholder="john@doe.com" name="email" />
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Comment
+                                                </td>
+                                                <td>
+                                                    <textarea id="commentBody" rows="3" cols="50" placeholder="Patterns are the best!" name="commentBody"></textarea>
+                                                    <input type="hidden" name="patternid" value="2">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Rate</td>
+                                                <td>
+                                                    <fieldset id='pattern' class="rating" name="pattern">
+                                                        <input class="stars" type="radio" id="star5" name="rating" value="5" />
+                                                        <label class="full" for="star5" title="Awesome - 5 stars"></label>
+                                                        <input class="stars" type="radio" id="star4" name="rating" value="4" />
+                                                        <label class="full" for="star4" title="Pretty good - 4 stars"></label>
+                                                        <input class="stars" type="radio" id="star3" name="rating" value="3" />
+                                                        <label class="full" for="star3" title="Meh - 3 stars"></label>
+                                                        <input class="stars" type="radio" id="star2" name="rating" value="2" />
+                                                        <label class="full" for="star2" title="Kinda bad - 2 stars"></label>
+                                                        <input class="stars" type="radio" id="star1" name="rating" value="1" />
+                                                        <label class="full" for="star1" title="I dont i like it - 1 star"></label>
+                                                    </fieldset>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td></td>
+                                                <td><button class="submitButton" type="submit" id="commentSubmit">submit</button></td>
+                                            </tr>
+                                        </table>
+
+                                    </form>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row ">
+                            <div class="white-box">
+                                <h3 class="box-title">Recent Comments</h3>
+                                <div class="comment-center p-t-10">
+                                    <div class="comment-body">
+                                        <div class="mail-contnet">
+                                            <!-- display jade -->

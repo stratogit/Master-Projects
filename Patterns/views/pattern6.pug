@@ -1,0 +1,18 @@
+include ./includes/header.html
+include ./html/Pattern6header.html
+
+each _id in all_comments
+        br
+        h4 Name: #{_id.namecoment}
+        h5 Commentary:
+        p #{_id.coment}
+        //- td Rating:#{_id.lastrating}
+        h5 Rating:
+        - for (var i = 0; i < _id.lastrating; ++i) {
+         fieldset#pattern.rating(name='pattern')
+                 labelcol.full 
+        - }     
+        br
+ 
+include ./html/Pattern6footer.html
+include ./includes/footer.html
