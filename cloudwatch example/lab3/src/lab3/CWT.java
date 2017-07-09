@@ -46,7 +46,7 @@ public class CWT extends ApplicationFrame {
 		} catch (Exception e) {
 			throw new AmazonClientException("Cannot load the credentials from the credential profiles file. "
 					+ "Please make sure that your credentials file is at the correct "
-					+ "location (C:\\Users\\Felipe\\.aws\\credentials), and is in valid format.", e);
+					+ "location (C:\\location.aws", e);
 		}
 		// create scanner to set region
 		Scanner scan = new Scanner(System.in);

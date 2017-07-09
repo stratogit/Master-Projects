@@ -55,7 +55,7 @@ public class Ec2 {
 		} catch (Exception e) {
 			throw new AmazonClientException("Cannot load the credentials from the credential profiles file. "
 					+ "Please make sure that your credentials file is at the correct "
-					+ "location (C:\\Users\\Felipe\\.aws\\credentials), and is in valid format.", e);
+					+ "location (C:\\Ulocation, and is in valid format.", e);
 		}
 		// creating amazon client to interact with aws intances
 		AmazonEC2Client ec2Client = new AmazonEC2Client(credentials);
